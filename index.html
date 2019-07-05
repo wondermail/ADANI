@@ -1,0 +1,1290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600,700" rel="stylesheet">
+    <meta name="theme-color" content="#992C7D">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+    <meta name="description" content="Adani - View Bill">
+    <meta property="og:title" content="Your Adani Electricity Bill">
+    <meta property="og:url" content="https://wondermail.github.io/ADANI/">
+    <meta property="og:description" content="Easily view and pay bill">
+    <meta property="og:image" content="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/78496804-29cb-4f95-9b4b-78a283b3fbc2.png">
+    <meta property="og:type" content="article">
+
+
+    <title>Adani Bill</title>
+    <style>
+
+.btn-outline-light{
+border-color: #3D4FA2;
+}
+
+.btn-light{
+background-color: #3D4FA2; 	
+}
+      .jumbotronfirst{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        background-color: #005aaa;
+      }
+      #fontbar1{
+        font-size: 15px;
+        padding-top: 10px;
+      }
+      #WMLogo{
+        margin-left: 10px;
+        margin-top: 12px;
+      }
+      #logoBSES{
+         display: block;
+/*         margin: auto; */
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 5px;
+         margin-bottom: 15px;
+/*         width: 50%;*/
+         }
+/*      .BSES{
+        margin-left: -30px;
+	margin-top: 15px;
+      }*/
+      .HeaderMargin{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      p.small{
+        line-height: 1.3;
+      }
+                         .greyedtop24000{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 132px;
+      }
+      .borderright{
+        border-right: 22px solid white;
+      }
+      .borderbottom{
+        border-bottom: solid 8px white;
+      }
+      .leftspace{
+        margin-left: 10px;
+      }
+      .rightspace{
+        margin-right: 10px;
+      }
+      .buttoncolor {
+        color: black;
+      }
+
+       .btn-outline-primary {
+        color: black;
+      }
+
+
+
+
+      .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited .buttoncolor {
+    background-color: #005AAA;
+      }
+      .greyed{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 18px;
+      }
+      .greyedtop{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 130px;
+      }
+       .greyedtop22{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: -32px;
+      }
+       .greyedtop23{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: -32px;
+      }
+       .greyedtop24{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 133px;
+      }
+
+             .greyedtop2400{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: -32px;
+      }
+
+       .greyedtop244{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 132px;
+      }
+       .greyedtop249{
+        background-color: #eeeeee;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: -2px;
+      }
+       .greyedtop2490{
+        background-color: #eeeeee;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: -32px;
+      }
+/*      .pagefont{
+        font-size: 9px;
+      }*/
+      .borderleft{
+        border-left: 10px solid white;
+      }
+      .borderleft2{
+        border-left: 10px solid white;
+      }
+      .upgrey{
+        margin-top: -32px;
+      }
+      .moveuptpaytm{
+        margin-top: -32px;
+      }
+      a{
+      text-decoration: none;
+      }
+      a:visited {
+            color: #ff790b;
+        }
+      a:link {
+            color: white /*#ff790b*/;
+        }
+      a:hover {
+            color: white/* #ff790b*/;
+        }
+      a:active {
+            color: white /*#ff790b*/;
+        }
+        .fontsizewebpage{
+          font-size: 14px;
+        }
+        .fontsizebox{
+          font-size: 16px;
+        }
+        .Spaceleft{
+          margin-left: 10px;
+        }
+ 
+
+        .spacetop{
+          margin-top: -50px;
+        }
+
+        .spacetopa{
+          margin-top: -20px;
+        }
+        .fa-envelope {
+          color: #992C7D;
+        }
+        .thisgoesup{
+          margin-top: -32px;
+        }
+        .whitecolor{
+          background: white;
+          padding-bottom: 20px;
+        }
+
+        .whitecolor2{
+          background: white;
+          padding-bottom: 20px;
+        }
+        .whitecolor24{
+          background: white;
+          padding-bottom: 5px;
+        }
+        .moveitup{
+          margin-top: -20px;
+        }
+        .moveitup2{
+          margin-top: -15px;
+        }
+         .moveitup22{
+          margin-top: -20px;
+        }
+        .up{
+          margin-top: -100px;
+          margin-left: -50px;
+        }
+        .imagemoveupwards{
+          margin-top: -42px;
+        }
+        .fa-envira{
+          color: #53A702;
+        }
+        .fa-angle-right{
+          color: #000000;
+        }
+
+
+  .noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+ .iskocoloraaa{
+    background: white;
+      margin-top: -20px;
+      padding-top: 10px;
+      padding-bottom: 14px;
+    }
+            .sevenhundred{
+      font-weight: 700;
+    }
+    .rateexperience{
+    padding-top: 10px;
+}
+.fa-phone{
+  color: #992C7D;
+}
+.fa-envelope{
+  color: #992C7D;  
+}
+/*Rate Stars CSS English*/
+div.ratestars {
+ display:block;
+ text-align:left;
+ direction: rtl;
+}
+
+input.ratestars { display: none; }
+
+label.ratestars {
+  box-sizing:border-box;
+  padding:0;
+  font-size: 36px;
+   color:#992C7D;
+  margin:0;
+margin-left: 5px;
+}
+
+input.ratestars:checked ~ label.ratestars:before {
+  content: '★';
+ }
+
+.ratestars input.star-50:checked ~ label.ratestars:before {
+  color:#992C7D;
+  /*text-shadow: 0 0 20px #952;*/
+}
+
+.ratestars input.star-11:checked ~ label.ratestars:before { color: #F62; }
+
+label.ratestars:before {
+  content: '☆';
+}
+/*Rate Stars CSS End*/
+
+
+/*Rate Stars CSS Bangla*/
+div.ratestarss {
+ display:block;
+ text-align:left;
+ direction: rtl;
+}
+
+input.ratestarss { display: none; }
+
+label.ratestarss {
+  box-sizing:border-box;
+  padding:0;
+  font-size: 36px;
+   color:#992C7D;
+  margin:0;
+margin-left: 5px;
+}
+
+input.ratestarss:checked ~ label.ratestarss:before {
+  content: '★';
+ }
+
+.ratestarss input.star-50:checked ~ label.ratestarss:before {
+  color:#992C7D;
+  /*text-shadow: 0 0 20px #952;*/
+}
+
+.ratestarss input.star-11:checked ~ label.ratestarss:before { color: #F62; }
+
+label.ratestarss:before {
+  content: '☆';
+}
+/*Rate Stars CSS End*/
+
+
+
+.upokl{
+    margin-top: -10px;
+}
+.fa-star{
+  color: #EABF0F;
+}
+.pl{
+    margin-top: 8px;
+}
+.imagetop{
+  margin-top: -32px;
+}
+      
+.modal-dialog {
+    margin: 20vh auto 0px auto
+}
+.fa-check-circle{
+	color: green;
+    font-size: 2.5em;
+}
+.modal-ku {
+  width: 320px;
+  margin-left: 20px;
+}
+      
+.modal-kj {
+  width: 340px;
+  margin-left: 10px;
+}
+.fontsizesincrease{
+  font-size: 2.5em;
+  color: green;
+}
+	    
+.fa-thumbs-up{
+	color: #38b6ff;
+    font-size: 2.5em;
+}
+
+
+/*CSS English to Bangla Starts*/
+
+    #en {
+  display: none;
+}
+
+
+input, label{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.logo p{
+    display: inline-block;
+
+}
+.pop{
+margin-top: 18px;
+margin-right: 5px;
+border: 1px solid #3D4FA2; 
+border-radius: 15px;
+padding: 5px
+
+}
+
+.poping{
+margin-top: 0px;
+margin-left: 0px;
+border-radius: 15px;
+padding: 5px
+
+}
+
+/*CSS English to Bangla Ends Here*/
+.poplll{
+  padding-top: 1px;
+  padding-bottom: 0px;
+}
+
+.current {
+
+    background-color: #3D4FA2; 
+    color: white;
+}
+	    
+	    
+	    .divbg{
+	background-color: white;
+  height: 50px;
+
+}
+
+
+#chaloright{
+	float: right;
+	margin-right: 8px;
+}
+
+.highlight{
+	background-color: #3D4FA2;
+
+}
+
+.hightlight3{
+	background-color: white;
+}
+
+.highlight2{
+	color: white;
+
+}	    
+
+/*Color Change */
+
+.select {
+    background: #3D4FA2;
+    color: white;
+}
+.select.highlight {
+    background: white;
+    color: black;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+
+<div class="noselect">
+
+
+
+
+<!--    <div class="jumbotron jumbotron-fluid jumbotronfirst">
+      <a href="https://wondermail.github.io/BSES/">
+      <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/4b8dbf7f-54b0-4125-be1e-a0649883c8bc.png" width="30px" align="left" id="WMLogo"></a>
+      <p align="center"; id="fontbar1"; id="mobilenumbertext"><span style="color: white"> 9876543210@wondermail.com</span></p>BSES
+    </div> -->
+
+
+ <div class="logo divbg noselect  " id="abcd">
+ 	<div id="chaloright">
+ 		<h5 class="pop pushme select"  style=" font-size: 17px; font-weight: normal;  ">हिंदी</h5>
+
+	</div>
+
+    </div>
+ <div class="noselect">    
+
+<!--     <div class="jumbotron jumbotron-fluid">
+     <div class="logo">
+    <p id="fr_click" class="pop " style="color: white">Bangla</p>
+    <p id="en_click" class="pop web_address Englishhh" style="color: white">English</p>
+    </div>
+    </div>
+ -->
+
+
+
+
+
+
+
+     <!-- BSES Logo and Table -->
+  <!--    <div >
+           <a href="https://wondermail.github.io/BSES/"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/cd28de23-84c7-463f-a1cb-8677c92dc3a6.png" width="140px" id="logoBSES"></a>
+     </div>
+ -->
+
+
+     <div class="container HeaderMargin noselect" id="en">
+     	           <a href="https://wondermail.github.io/ADANI/"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/06938b1d-8997-4762-8abf-7854fef623d9.png" width="140px" id="logoBSES"></a>
+
+     <p class="small">YOUR ELECTRICITY BILL FROM <br>4 APRIL TO 2 MAY 2019</p>
+     </div>
+
+
+     <div class="container HeaderMargin noselect" id="fr">
+     	     	           <a href="https://wondermail.github.io/ADANI/"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/06938b1d-8997-4762-8abf-7854fef623d9.png" width="140px" id="logoBSES"></a>
+     <p class="small">आपका बिजली बिल <br>4 APRIL से 2 MAY 2019</p>
+     </div>
+
+
+     <!-- Customer Details Table -->
+     <div class="container noselect" id="en">
+     <table align="center" class="fontsizewebpage">
+       <tr class="borderbottom">
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400"> Name</span></td>
+         <td width="150px"; align="left">Uma Gupta</td>
+       </tr>
+       <tr class="borderbottom">
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400"> CA Number</span></td>
+         <td width="150px"; align="left">150865XXX</td>
+       </tr>
+       <tr class="borderbottom">
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400">Bill Amount</span></td>
+         <td width="150px"; align="left"><span style="color: #ff5c5c">₹ 17,771</td>
+       </tr>
+       <tr>
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400">Due Date</span></td>
+         <td width="150px"; align="left">24th MAY 2019</td>
+       </tr>
+     </table>
+    </div>
+
+
+
+      <div class="container noselect" id="fr">
+
+     <table align="center" class="fontsizewebpage">
+       <tr class="borderbottom">
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400"> नाम</span></td>
+         <td width="150px"; align="left">Uma Gupta</td>
+       </tr>
+       <tr class="borderbottom">
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400"> सी. ऐ. नंबर</span></td>
+         <td width="150px"; align="left">150865XXX</td>
+       </tr>
+       <tr class="borderbottom">
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400">बिल की राशि</span></td>
+         <td width="150px"; align="left"><span style="color: #ff5c5c">‎₹ 17,771</td>
+       </tr>
+       <tr>
+         <td width="120px"; align="right" class="borderright"><span style="color: #676767; font-weight: 400">नियत तारीख</span></td>
+         <td width="150px"; align="left">24th MAY 2019</td>
+       </tr>
+     </table>
+    </div>
+
+
+
+
+
+
+    <!-- HR -->
+    <hr width="90%">
+
+    <!-- Buttons -->
+    <div class="container" align="center" id="en">
+    <a href="bses bill.pdf"><button type="button" class="btn btn-outline-light"><span style="color: black"> View Bill</span></button></a>
+    <!-- Modal Button -->
+    <button type="button" class="btn btn-outline-light leftspace rightspace" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><span style="color: black">Email Bill</span></button>
+    <!-- Modal Button Ends Here -->
+    <a href="paybill1.1.html"><button type="button" class="btn btn-outline-light"><span style="color: black">Pay Bill</span></button></a>
+    </div>
+
+
+
+    <div class="container noselect" align="center" id="fr">
+    <a href="bses bill.pdf"><button type="button" class="btn btn-outline-light"><span style="color: black"> बिल देखें</span></button></a>
+    <!-- Modal Button -->
+    <button type="button" class="btn btn-outline-light leftspace rightspace " data-toggle="modal" data-target="#exampleModalhj" data-whatever="@mdo"><span style="color: black"> ईमेल बिल</span>
+    <!-- Modal Button Ends Here -->
+    <a href="paybill1.1.html"><button type="button" class="btn btn-outline-light"><span style="color: black"> बिल भरें</span></button></a>
+    </div>
+
+    <!-- Grey patch  -->
+    <div class="jumbotron jumbotron-fluid greyed border-top">
+    </div>
+
+    <!-- PayTm Box -->
+      <div class="moveuptpaytm noselect" id="en">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" bgcolor="#fafafa" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/825539db-f54b-44e5-a4bb-9308921aed52.png" width="80px">
+          </td>
+          <td height="98" class="borderleft">
+           <span style="font-weight: 700; line-height: 1.0"> Get Up To Rs 5000 Cashback</span><br>
+           <div style="line-height: 1.0;"> For bills of Rs 300 and above.<br>Offer valid once per user per month</div>
+          <a href="https://paytm.com/electricity-bill-payment/new-delhi"><span style="color: #3D4FA2; font-weight: 500; line-height: 1.5;">Pay Now</span>
+          </td>
+        </tr>
+      </table>    
+    </div>
+
+
+          <div class="moveuptpaytm noselect" id="fr">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" bgcolor="#fafafa" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/825539db-f54b-44e5-a4bb-9308921aed52.png" width="80px">
+          </td>
+          <td height="98" class="borderleft">
+           <span style="font-weight: 700; line-height: 1.0"> ₹5000 तक कैशबैक पाएं</span><br>
+           <div style="line-height: 1.0;"> ₹ ३०० और उससे अधिक के बिल के लिए। एक महीने के लिए वैध।</div>
+          <a href="https://paytm.com/electricity-bill-payment/new-delhi"><span style="color: #3D4FA2; font-weight: 500; line-height: 1.5;">बिल भरें</span>
+          </td>
+        </tr>
+      </table>    
+    </div>
+
+
+    <!-- Grey patch  -->
+    <div class="jumbotron jumbotron-fluid greyedtop border-top">
+    </div>
+
+    <!-- Update Your Email ID Section -->
+    <div class="jumbotron jumbotron-fluid thisgoesup whitecolor border-bottom noselect" id="en">
+      <div class="moveitup">
+      <p class="Spaceleft" style="font-size: 18px; font-weight: 700"><i class="fas fa-envelope"></i> Update Your Email ID</p>
+      <div class="moveitup2">
+      <p class="Spaceleft" style="font-size: 16px;">Start receiving bills on your updated Email ID</p>      
+        <form id="myFormIndia1">
+          <div class="form-group Spaceleft">
+            <input id="myCheckS1" type="email" style="max-width: 70%"  placeholder="abc@xyz.com" required>
+          </div>
+       </div>   
+<button class="btn btn-outline-light Spaceleft" type="submit"  value="Submit"><span style="color: black"> Update</span></button>
+        </form>
+
+	      <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/82436dad-5578-4ab4-a406-960a935f5948.png" width="100" height="100" align="right" class="imagemoveupwards">
+         </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <div class="jumbotron jumbotron-fluid thisgoesup whitecolor border-bottom noselect" id="fr">
+      <div class="moveitup">
+      <p class="Spaceleft" style="font-size: 18px; font-weight: 700"><i class="fas fa-envelope"></i> ईमेल आईडी अपडेट करें</p>
+      <div class="moveitup2">
+      <p class="Spaceleft" style="font-size: 16px;">अपनी अपडेट की गई ईमेल आईडी पर बिल पाएं</p>      
+        <form id="myFormIndia14">
+          <div class="form-group Spaceleft">
+            <input id="myCheckS14" type="email" style="max-width: 70%"  placeholder="abc@xyz.com" required>
+          </div>
+       </div>   
+<button class="btn btn-outline-light Spaceleft" type="submit"  value="Submit"><span style="color: black"> अपडेट करें</span></button>
+        </form>
+
+        <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/82436dad-5578-4ab4-a406-960a935f5948.png" width="100" height="100" align="right" class="imagemoveupwards">
+         </div>
+    </div>
+  </div>
+</div>
+	    
+	    
+	            <!-- Update Your Email Address MODAL -->
+
+    <div class="modal modal-ku fade" tabindex="-1" role="dialog" id="myModalP1" id="en">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-check-circle fontsizesincrease"></i><br><br>Your email ID has been<br>successfully updated.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <div class="modal modal-ku fade" tabindex="-1" role="dialog" id="myModalP146" id="fr">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-check-circle fontsizesincrease"></i><br><br>आपकी ईमेल आईडी सफलतापूर्वक<br> अपडेट हो गई है।</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >बंद करे</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Update Your Email Address Modal Ends Here -->
+
+        <!-- Grey patch  -->
+    <div class="jumbotron jumbotron-fluid greyedtop22">
+    </div>
+
+
+   <!-- Go Green Save Paper Section -->
+
+    <div class="jumbotron jumbotron-fluid thisgoesup whitecolor2 border-bottom noselect" id="en">
+      <div class="moveitup">
+      <p class="Spaceleft" style="font-size: 18px; font-weight: 700"><i class="fab fa-envira"></i> Go Green. Save Paper</p>
+      <div class="moveitup2">
+      <p class="Spaceleft" style="font-size: 16px; line-height: 1.3; padding-top: 8px"> Subscribe to E-bill and help save paper. Once you opt for E-bill, you will receive bill on email and mobile number; <u>paper bill will be discontinued</u>.</p>
+
+
+  <form id="myFormIndia">
+      <div class="Spaceleft">
+    <input id="myCheckS" type="checkbox" required> Yes, I opt for E-bill<br>  
+</div>
+<br>
+<button class="btn btn-outline-light Spaceleft" type="submit"  value="Submit"><span style="color: black">Submit</span></button>
+</form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+      <div class="jumbotron jumbotron-fluid thisgoesup whitecolor2 border-bottom noselect" id="fr">
+      <div class="moveitup">
+      <p class="Spaceleft" style="font-size: 18px; font-weight: 700"><i class="fab fa-envira"></i> पर्यावरण के अनुकूल बनें। कागज़ बचाएं।</p>
+      <div class="moveitup2">
+      <p class="Spaceleft" style="font-size: 16px; line-height: 1.3; padding-top: 8px"> ई-बिल की सदस्यता लें और कागज़ बचाने में मदद करें। एक बार जब आप ई-बिल चुनते हैं, तो आपको ईमेल और मोबाइल नंबर पर बिल प्राप्त होगा; <u>पेपर बिल बंद कर दिया जाएगा।</u>.</p>
+
+
+  <form id="myFormIndia88">
+      <div class="Spaceleft">
+    <input id="myCheckS88" type="checkbox" required> हां, मैं ई-बिल का विकल्प चुनता हूं<br>  
+</div>
+<br>
+<button class="btn btn-outline-light Spaceleft" type="submit"  value="Submit"><span style="color: black"> सब्मिट करें</span></button>
+</form>
+      </div>
+    </div>
+  </div>
+	    
+	    
+	    
+    <!-- Go Green MODAL -->
+
+   <div class="modal modal-ku fade" tabindex="-1" role="dialog" id="myModalP" id="en" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-envelope fontsizesincrease"></i><br><br><strong>Congratulations!</strong> You have been successfully subscribed to receive bill on email & mobile number.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <div class="modal modal-ku fade" tabindex="-1" role="dialog" id="myModalP88" id="fr" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-envelope fontsizesincrease"></i><br><br><strong>बधाई हो! </strong> ईमेल और मोबाइल नंबर पर बिल प्राप्त करने के लिए आपको सफलतापूर्वक सदस्यता दे दी गई है।</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >बंद करें</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- Go Green Modal Ends Here -->
+
+
+
+        <!-- Grey patch  -->
+
+    <div class="jumbotron jumbotron-fluid greyedtop23">
+    </div>
+
+<!-- Call To Order Repairs Section -->
+
+<!--       <div class="moveuptpaytm noselect" id="en">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" width="100" bgcolor="white" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/ddd9184d-970a-4451-99b0-7afea651befb.png" width="80px" class="rounded-circle border ">
+          </td>
+          <td height="98" class="borderleft2">
+           <span style="font-weight: 700; line-height: 1.2;">Need Electrician For Repairs</span>
+           <div style="line-height: 1.2;">Avail our services at reasonable pricing & trusted electricians</div>
+          <a href="tel:1860 500 1912" target="_top"><span style="color: #0076bc; font-weight: 500; line-height: 1.2;">Call To Order </span>
+          </td>
+        </tr>
+      </table>    
+    </div> -->
+
+
+<!-- 
+          <div class="moveuptpaytm noselect" id="fr">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" width="100" bgcolor="white" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/ddd9184d-970a-4451-99b0-7afea651befb.png" width="80px" class="rounded-circle border ">
+          </td>
+          <td height="98" class="borderleft2">
+           <span style="font-weight: 700; line-height: 1.2;">মেরামত জন্য বৈদ্যুতিক প্রয়োজন</span>
+           <div style="line-height: 1.2;">যুক্তিসঙ্গত মূল্য আমাদের সেবা গ্রহণ করুন এবং বিশ্বস্ত বৈদ্যুতিকবিদ</div>
+          <a href="tel:1860 500 1912" target="_top"><span style="color: #0076bc; font-weight: 500; line-height: 1.2;">কল </span>
+          </td>
+        </tr>
+      </table>    
+    </div> -->
+
+
+
+
+        <!-- Grey patch  -->
+
+<!--     <div class="jumbotron jumbotron-fluid greyedtop24000 border-top">
+    </div> -->
+
+<!-- Locate Nearest Office -->
+      <div class="moveuptpaytm noselect" id="en">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" width="100" bgcolor="white" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/6b2fdc55-b523-4b08-98a4-393282cf216f.png" width="80px" class="rounded-circle border ">
+          </td>
+          <td height="98" class="borderleft2">
+           <span style="font-weight: 700; line-height: 1.2;">Locate Nearest Office</span>
+           <div style="line-height: 1.2;">Visit us for any connection & payment related query</div>
+          <a href="https://www.google.com/maps/search/adani+bill+payment+centre/"><span style="color: #3D4FA2; font-weight: 500; line-height: 1.2;">Get Directions </span>
+          </td>
+        </tr>
+      </table>    
+    </div>
+
+
+
+
+    <div class="moveuptpaytm noselect" id="fr">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" width="100" bgcolor="white" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/6b2fdc55-b523-4b08-98a4-393282cf216f.png" width="80px" class="rounded-circle border ">
+          </td>
+          <td height="98" class="borderleft2">
+           <span style="font-weight: 700; line-height: 1.2;">निकटतम कार्यालय</span>
+           <div style="line-height: 1.2;">किसी भी कनेक्शन और भुगतान से संबंधित जानकारी के लिए जाएँ</div>
+          <a href="https://www.google.com/maps/search/adani+bill+payment+centre/"><span style="color: #3D4FA2; font-weight: 500; line-height: 1.2;">दिशा देखें</span>
+          </td>
+        </tr>
+      </table>    
+    </div>
+
+
+
+
+        <!-- Grey patch  -->
+
+    <div class="jumbotron jumbotron-fluid greyedtop24 border-top">
+    </div>
+
+
+    <!-- Save Electricity -->
+      <div class="moveuptpaytm noselect" id="en">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" width="100" bgcolor="white" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/f66ea3ea-a7a1-44c9-b70d-f300dd006a61.png" width="80px" class="rounded-circle border ">
+          </td>
+          <td height="98" class="borderleft2">
+           <span style="font-weight: 700; line-height: 1.2;">Energy Saving Tips</span>
+           <div style="line-height: 1.2;">Learn how you can lower electricity bill</div>
+          <a href="https://www.adanielectricity.com/-/media/Project/Electricity/MoneySaver/Documents/Resedential_tips.pdf?la=en&hash=EC56659503DDBDA6E6C8166875E32457"><span style="color: #3D4FA2; font-weight: 500; line-height: 1.2;">View Tips </span>
+          </td>
+        </tr>
+      </table>    
+    </div>
+
+
+
+
+    <div class="moveuptpaytm noselect" id="fr">
+      <table align="left" bgcolor="white" class="fontsizebox">
+        <tr>
+          <td height="98" width="100" bgcolor="white" align="center">
+            <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/f66ea3ea-a7a1-44c9-b70d-f300dd006a61.png" width="80px" class="rounded-circle border ">
+          </td>
+          <td height="98" class="borderleft2">
+           <span style="font-weight: 700; line-height: 1.2;">बिजली बचाने की युक्तियाँ </span>
+           <div style="line-height: 1.2;">जानिए कैसे आप बिजली का बिल कम कर सकते हैं</div>
+          <a href="https://www.adanielectricity.com/-/media/Project/Electricity/MoneySaver/Documents/Resedential_tips.pdf?la=en&hash=EC56659503DDBDA6E6C8166875E32457"><span style="color: #3D4FA2; font-weight: 500; line-height: 1.2;">युक्तियाँ देखें</span>
+          </td>
+        </tr>
+      </table>    
+    </div>
+
+
+        <!-- Grey patch  -->
+
+    <div class="jumbotron jumbotron-fluid greyedtop24 border-top">
+    </div>
+    <!-- Rate Your Experience Section -->
+
+    <div class="jumbotron noselect jumbotron-fluid thisgoesup whitecolor24 border-bottom" >
+      <div class="moveitup">
+      <p class="Spaceleft" style="font-size: 18px; font-weight: 700" id="en"><i class="fas fa-star"></i> Give Us Your Feedback</p>
+            <p class="Spaceleft" style="font-size: 18px; font-weight: 700" id="fr"><i class="fas fa-star"></i> हमें अपनी प्रतिक्रिया दें</p>      
+      <div class="moveitup22">
+      <p class="Spaceleft" style="font-size: 16px; line-height: 1.3; padding-top: 8px" id="en"> How would you rate our service?</p>
+      <p class="Spaceleft" style="font-size: 16px; line-height: 1.3; padding-top: 8px" id="fr">हमारी सेवा को कितने सितारे देंगे?</p>
+      <!-- Star Rating -->
+<div class="ratestars spaceleft upokl">
+    <input value="5" class="ratestars star-5" id="star-5" type="radio" name="star">
+    <label class="ratestars star-5" for="star-5"></label>
+    <input value="4" class="ratestars star-4" id="star-4" type="radio" name="star">
+    <label class="ratestars star-4" for="star-4"></label>
+    <input value="3" class="ratestars star-3" id="star-3" type="radio" name="star">
+    <label class="ratestars star-3" for="star-3"></label>
+    <input value="2" class="ratestars star-2" id="star-2" type="radio" name="star">
+    <label class="ratestars star-2" for="star-2"></label>
+    <input value="1" class="ratestars star-1" id="star-1" type="radio" name="star">
+    <label class="ratestars star-1" for="star-1"></label>
+</div>
+</div>
+        <form>
+          <div class="form-group Spaceleft">
+              <textarea class="form-control spaceleft" id="exampleFormControlTextarea1" style="max-width: 85%" rows="2" placeholder="Enter your comments here" ></textarea><br>
+              <button type="button" class="btn btn-light spaceleft" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo" id="en"><span style="color: white"> Submit Feedback</span></button>
+                            <button type="button" class="btn btn-light spaceleft" id="fr" data-toggle="modal" data-target="#exampleModal243" data-whatever="@mdo"><span style="color: white">सब्मिट करें</span></button>             
+          </div>   
+        </form>
+      </div>
+    </div>
+
+
+
+        <!-- Grey patch  -->
+
+    <div class="jumbotron jumbotron-fluid greyedtop2400 border-top">
+    </div>
+
+
+      
+      
+    <!-- Thank you for giving your valuable feedback Modal -->
+
+    <div class="modal noselect modal-ku fade" tabindex="-1" role="dialog" id="exampleModal2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-thumbs-up"></i><br><br>Thanks for giving your valuable feedback.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="modal modal-ku fade" tabindex="-1" role="dialog" id="exampleModal243">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-thumbs-up"></i><br><br>अपनी बहुमूल्य प्रतिक्रिया देने के लिए धन्यवाद।</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >बंद करे</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Feedback Modal Ends Here -->
+
+
+    <!-- Ad Image -->
+
+    <div id="en">
+    <a href="https://play.google.com/store/apps/details?id=com.adani.adanielectricity"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/33e8bab5-29ee-4e39-8d3f-fb507e4abe35.png" class="border-bottom imagetop" width="100%"></a>
+    </div>
+
+    <div id="fr">
+    <a href="https://play.google.com/store/apps/details?id=com.adani.adanielectricity"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/e57314f4-bed9-4c5e-9628-93a5cce16644.png" class="border-bottom imagetop" width="100%"></a>
+    </div>
+
+        <!-- Grey patch  -->
+    <div class="jumbotron jumbotron-fluid greyedtop249 border-top">
+    </div>
+
+    <!-- Contact Buttons -->
+    <div id="en">
+    <table class="jumbotron jumbotron-fluid border-bottom noselect" style="background: white; margin-top: -32px;">
+      <tr>
+        <td height="50" width="200" class="border-right" align="center">
+          <i class="fas fa-phone fa-flip-horizontal"></i> 
+          <a href="tel:19122" target="_top">
+            <span style="color: black">Call Us</span>
+        </td></a>
+        <td align="center" width="200">
+        <a href="mailto:helpdesk.mumbaielectricity@adani.com" target="_top">
+          <i class="far fa-envelope"></i><span style="color: black"> Email Us</a></span>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+       <div id="fr">
+        <table class="jumbotron jumbotron-fluid border-bottom noselect" style="background: white; margin-top: -32px;">
+      <tr>
+        <td height="50" width="200" class="border-right" align="center">
+          <i class="fas fa-phone fa-flip-horizontal"></i> 
+          <a href="tel:19122" target="_top">
+            <span style="color: black"> कॉल करें</span>
+        </td></a>
+        <td align="center" width="200">
+        <a href="mailto:helpdesk.mumbaielectricity@adani.com" target="_top">
+          <i class="far fa-envelope"></i><span style="color: black"> ईमेल करे</a></span>
+        </td>
+      </tr>
+    </table>
+  </div>
+    <p id="en_click"  class="poping" style=" font-size: 1px">English</p>
+	 <p id="fr_click"   class="poping " style=" font-size: 1px; ">हिंदी</p>
+</div>
+    <!-- Forward Email MODAL -->
+  <div class="modal fade modal-kj" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" id="en">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Forward Bill</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Enter Email ID:</label>
+            <input type="email" class="form-control" id="recipient-name" placeholder="abc@xyz.com">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Forward</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="modal fade modal-kj" id="exampleModalhj" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" id="fr">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">बिल फॉरवर्ड करें</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">ईमेल आईडी दर्ज करें</label>
+            <input type="email" class="form-control" id="recipient-name" placeholder="abc@xyz.com">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">बंद करे</button>
+        <button type="button" class="btn btn-primary">फॉरवर्ड करें</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+    <!-- MODAL Ends Here -->
+</div>
+    <!-- Optional JavaScript -->
+   <script>
+	   
+	    	$('#myFormIndia1').on('submit', function(e) {
+  
+  e.preventDefault(); //stop submit
+  
+  if ($('#myCheckS1').val() !== "") {
+  //Check if checkbox is checked then show modal
+    $('#myModalP1').modal('show');
+  }
+});
+
+
+                $('#myFormIndia14').on('submit', function(e) {
+  
+  e.preventDefault(); //stop submit
+  
+  if ($('#myCheckS14').val() !== "") {
+  //Check if checkbox is checked then show modal
+    $('#myModalP146').modal('show');
+  }
+});
+
+	   
+	   
+	   
+	   
+  $('#myFormIndia').on('submit', function(e) {
+  
+  e.preventDefault(); //stop submit
+  
+  if ($('#myCheckS').is(':checked')) {
+  //Check if checkbox is checked then show modal
+    $('#myModalP').modal('show');
+  }
+});
+
+
+
+    $('#myFormIndia88').on('submit', function(e) {
+  
+  e.preventDefault(); //stop submit
+  
+  if ($('#myCheckS88').is(':checked')) {
+  //Check if checkbox is checked then show modal
+    $('#myModalP88').modal('show');
+  }
+});
+
+// Script English to bangla
+
+  var french = document.getElementById('fr_click'),
+    english = document.getElementById('en_click'),
+    fr_txt = document.querySelectorAll('#fr'),
+    en_txt = document.querySelectorAll('#en'),
+    nb_fr = fr_txt.length,
+    nb_en = en_txt.length;
+
+french.addEventListener('click', function() {
+    langue(french,english);
+}, false);
+
+english.addEventListener('click', function() {
+    langue(english,french);
+}, false);
+
+function langue(langueOn,langueOff){
+    if (!langueOn.classList.contains('current_lang')) {
+        langueOn.classList.toggle('current_lang');
+        langueOff.classList.toggle('current_lang');
+    }
+    if(langueOn.innerHTML == 'हिंदी'){
+        afficher(fr_txt, nb_fr);
+        cacher(en_txt, nb_en);
+    }
+    else if(langueOn.innerHTML == 'English'){
+        afficher(en_txt, nb_en);
+        cacher(fr_txt, nb_fr);
+    }
+}
+
+function afficher(txt,nb){
+    for(var i=0; i < nb; i++){
+        txt[i].style.display = 'block';
+    }
+}
+function cacher(txt,nb){
+    for(var i=0; i < nb; i++){
+        txt[i].style.display = 'none';
+    }
+}
+function init(){
+    langue(english,french);
+}
+init();
+
+// Script English To Bangla Ends here
+
+$('#abcd p').on('click', function(){
+    $('p.current').removeClass('current');
+    $(this).addClass('current');
+});
+
+
+
+
+ 	$( "h5" ).click(function() {
+  $( "#fr, #en" ).toggle();
+});
+
+$(".pushme").click(function () {
+            $(this).text(function(i, v){
+               return v === 'English' ? 'हिंदी' : 'English'
+            })
+        });
+
+
+// $( "h5" ).click(function() {
+//   $( this ).toggleClass( "highlight" );
+// });
+
+// $( "h5" ).click(function() {
+//   $( this ).toggleClass( "highlight2" );
+// });
+
+
+jQuery(function ($) {
+    $('.select').click(function () {
+        $(this).toggleClass('highlight')
+    })
+})
+
+
+
+// $('h5').on('click', function(){
+//     $('h5').removeClass('hightlight3');
+//     $(this).addClass('highlight');
+// });
+
+
+</script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
